@@ -1,0 +1,300 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Lucida Grande";
+	panose-1:2 11 6 0 4 5 2 2 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:0 0 5 0 0 0 0 2 0 0;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;}
+h1
+	{mso-style-link:"Titolo 1 Carattere";
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Testo commento Carattere";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Soggetto commento Carattere";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Cambria",serif;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Testo fumetto Carattere";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Lucida Grande",sans-serif;}
+span.Titolo1Carattere
+	{mso-style-name:"Titolo 1 Carattere";
+	mso-style-link:"Titolo 1";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.TestocommentoCarattere
+	{mso-style-name:"Testo commento Carattere";
+	mso-style-link:"Testo commento";}
+span.SoggettocommentoCarattere
+	{mso-style-name:"Soggetto commento Carattere";
+	mso-style-link:"Soggetto commento";
+	font-weight:bold;}
+span.TestofumettoCarattere
+	{mso-style-name:"Testo fumetto Carattere";
+	mso-style-link:"Testo fumetto";
+	font-family:"Lucida Grande",sans-serif;}
+.MsoChpDefault
+	{font-size:10.0pt;
+	font-family:"Cambria",serif;}
+@page WordSection1
+	{size:595.0pt 842.0pt;
+	margin:42.55pt 35.45pt 14.2pt 35.45pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=IT>
+
+<div class=WordSection1>
+
+<h1 align=center style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:center'><span style='font-size:16.0pt;color:black'>Didattica
+online</span></h1>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:Times'>Sviluppare un programma Java che implementi una piattaforma
+per la gestione della didattica online di un Ateneo. Tutte le classi devono
+essere contenute nel package </span><span style='font-size:9.0pt;font-family:
+"Courier New"'>didatticaonline</span><span style='font-size:10.0pt;font-family:
+Times'>. La gestione avviene tramite un’istanza della classe </span><span
+style='font-size:9.5pt;font-family:"Courier New"'>Piattaforma</span><span
+style='font-size:10.0pt;font-family:Times'>.</span></p>
+
+<div style='margin-bottom:3.0pt'>
+
+<div class=MsoNormal align=center style='text-align:center'><span
+style='font-size:10.0pt;font-family:Times'>
+
+<hr size=0 width=524 style='width:524.1pt' noshade style='color:black'
+align=center>
+
+</span></div>
+
+</div>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-size:1.0pt;
+font-family:Times'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-family:
+Times'>R1. Corsi e docenti</span></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-size:2.0pt;
+font-family:Times'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.5pt;
+font-family:Times'>La piattaforma gestisce le informazioni relative a corsi e
+docenti. I corsi sono rappresentati da istanze della classe </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>Corso</span><span
+style='font-size:10.5pt;font-family:Times'>. Per definire un corso si utilizza
+il metodo <b>definisciCorso()</b> della classe </span><span style='font-size:
+9.0pt;font-family:"Courier New"'>Piattaforma</span><span style='font-size:10.5pt;
+font-family:Times'>, che riceve come parametro il titolo, l’anno, il periodo
+didattico ed il numero di crediti. Il metodo assegna automaticamente un codice
+identificativo univoco composto dalle prime 5 e dalle ultime 5 lettere del
+titolo (o meno, se non disponibili) in maiuscolo, seguite dall’anno e dal
+periodo didattico. Il metodo restituisce l’oggetto di classe </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>Corso</span><span
+style='font-size:10.5pt;font-family:Times'> creato. Nel caso in cui un corso
+con quel codice fosse già esistente, il metodo restituisce un riferimento all’oggetto
+corrispondente. La classe </span><span style='font-size:9.0pt;font-family:"Courier New"'>Corso</span><span
+style='font-size:10.5pt;font-family:Times'> mette a disposizione opportuni
+metodi getter per accedere alle suddette informazioni. Il metodo <b>cercaCorso()</b>
+della classe </span><span style='font-size:9.0pt;font-family:"Courier New"'>Piattaforma</span><span
+style='font-size:10.5pt;font-family:Times'> riceve come parametro un codice
+corso e restituisce l’oggetto </span><span style='font-size:9.0pt;font-family:
+"Courier New"'>Corso</span><span style='font-size:10.5pt;font-family:Times'>
+corrispondente, </span><span style='font-size:9.0pt;font-family:"Courier New"'>null</span><span
+style='font-size:10.5pt;font-family:Times'> se non trovato.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.5pt;
+font-family:Times'>I docenti sono rappresentanti da istanze della classe </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>Docente</span><span
+style='font-size:10.5pt;font-family:Times'>. I nuovi docenti si definiscono
+invocando il metodo <b>definisciDocente()</b>, che riceve come parametri nome,
+cognome e dipartimento del docente. Il metodo assegna automaticamente al nuovo
+docente un id univoco intero a partire da 1000. Il metodo restituisce un
+riferimento al docente creato. In caso di docente con il medesimo nome, cognome
+e dipartimento già esistente, il metodo restituisce un riferimento all’oggetto
+corrispondente. Sono invece possibili omonimi in dipartimenti diversi. Opportuni
+metodi getter della classe </span><span style='font-size:9.0pt;font-family:
+"Courier New"'>Docente</span><span style='font-size:10.5pt;font-family:Times'>
+permettono di accedere alle suddette informazioni. Il metodo <b>cercaDocente()</b>
+riceve come parametro un identificativo docente e restituisce l’oggetto </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>Docente</span><span
+style='font-size:10.5pt;font-family:Times'> corrispondente, </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>null</span><span
+style='font-size:10.5pt;font-family:Times'> se non trovato. </span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.5pt;
+font-family:Times'>I metodi <b>elencoCorsi()</b> ed <b>elencoDocenti()</b>
+della classe </span><span style='font-size:9.0pt;font-family:"Courier New"'>Piattaforma</span><span
+style='font-size:10.5pt;font-family:Times'> restituiscono una collezione dei
+corsi e dei docenti definiti attraverso i suddetti metodi, rispettivamente
+ordinati per codice corso e per cognome e nome del docente.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:6.0pt;
+font-family:Times'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-family:
+Times'>R2. Assegnazioni corsi–docenti</span></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-size:2.0pt;
+font-family:Times'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.5pt;
+font-family:Times'>Ad un corso possono essere assegnati più docenti, e
+viceversa. Ciascun docente può essere convolto in un corso per ore di tipo </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>LEZ</span><span
+style='font-size:10.5pt;font-family:Times'> (lezioni) oppure </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>ESE</span><span
+style='font-size:10.5pt;font-family:Times'> (esercitazioni) per un certo numero
+di ore (10 ore = 1 credito). Un docente può essere assegnato allo stesso corso
+per ore di tipo diverso. Per assegnare un docente ad un corso si utilizza il
+metodo <b>assegnaDocenteCorso()</b>, che riceve come parametri un codice corso,
+un id docente, il numero di ore ed il tipo. Se quel docente è già assegnato a
+quel corso con quella tipologia di ore, il numero di ore di quella tipologia
+viene incrementato. Se il numero di ore complessive per tutti i docenti
+coinvolti e tutte le tipologie supera quelle corrispondenti ai crediti del corso,
+il metodo non sortisce alcun effetto. Analogamente, in caso di corso o docente
+inesistenti, il metodo non sortisce alcun effetto. </span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.5pt;
+font-family:Times'>Il metodo <b>stampaDocentiCorso()</b> riceve come parametro
+il codice di un corso e restituisce una stringa contenente le informazioni
+relative ai docenti ad esso assegnati. I docenti sono riportati, uno per riga,
+per numero di ore decrescente (un docente può comparire in più righe per
+tipologie di ore differenti). Ogni riga riporta, separati da uno spazio, l’id docente,
+il numero di ore ed il tipo (</span><span style='font-size:9.0pt;font-family:
+"Courier New"'>LEZ</span><span style='font-size:10.5pt;font-family:Times'>
+oppure </span><span style='font-size:9.0pt;font-family:"Courier New"'>ESE</span><span
+style='font-size:10.5pt;font-family:Times'>). Tutte le righe tranne l’ultima
+sono terminate da un carattere di “a capo”.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:6.0pt;
+font-family:Times'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-family:
+Times'>R3. Virtual Classroom </span></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-size:2.0pt;
+font-family:Times'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.5pt;
+font-family:Times'>I docenti possono attivare Virtual Classroom (VC) per
+gestire lezioni/esercitazioni, da un lato, ed esami, dall’altro. Le VC delle
+due tipologie sono rappresentate da istanze delle classi </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>VCLezioneEsercitazione</span><span
+style='font-size:10.5pt;font-family:Times'> e </span><span style='font-size:
+9.0pt;font-family:"Courier New"'>VCEsame</span><span style='font-size:10.5pt;
+font-family:Times'>, derivate dalla classe </span><span style='font-size:9.0pt;
+font-family:"Courier New"'>VC</span><span style='font-size:10.5pt;font-family:
+Times'>. Entrambe le tipologie sono create attraverso il metodo <b>creaVirtualClassroom()</b>.
+In caso di creazione di una VC per un esame, il metodo riceve come parametri il
+codice del corso per cui la VC è attivata, l’id del docente (che deve risultare
+già assegnato al corso), la data (nel formato </span><span style='font-size:
+9.0pt;font-family:"Courier New"'>AAAAMMGG</span><span style='font-size:10.5pt;
+font-family:Times'>) e l’ora di inizio (</span><span style='font-size:9.0pt;
+font-family:"Courier New"'>HH:MM</span><span style='font-size:10.5pt;
+font-family:Times'>). Nel caso di VC creata per una lezione, il metodo riceve
+anche due parametri booleani che indicano se la registrazione ed il microfono/la
+webcam degli studenti siano abilitati. In caso di corso non esistente o docente
+non esistente/non assegnato al corso, il metodo non sortisce alcun effetto (e
+restituisce </span><span style='font-size:9.0pt;font-family:"Courier New"'>null</span><span
+style='font-size:10.5pt;font-family:Times'>). Altrimenti, il metodo restituisce
+l’oggetto del tipo specifico creato, ovvero </span><span style='font-size:9.0pt;
+font-family:"Courier New"'>VCLezioneEsercitazione</span><span style='font-size:
+10.5pt;font-family:Times'> o </span><span style='font-size:9.0pt;font-family:
+"Courier New"'>VCEsame</span><span style='font-size:10.5pt;font-family:Times'>.
+Le suddette classi mettono a disposizione opportuni metodi getter per accedere
+alle relative informazioni.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.5pt;
+font-family:Times'>Fino a quando la VC non viene esplicitamente chiusa, questa
+rimane aperta (e l’ora di fine è impostata a stringa vuota). Per chiudere una VC
+si utilizza il metodo <b>chiudiVirtualClassroom()</b>, che riceve come
+parametri il codice del corso e l’ora di fine. Nel caso in cui si invochi il
+metodo per un corso per cui non risultino VC aperte viene scatenata una </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>EccezioneNessunaVCDaChiudere</span><span
+style='font-size:10.5pt;font-family:Times'>. La piattaforma non deve permettere
+la creazione di una VC per un corso se ve ne è una già aperta. Nel caso in cui
+si cerchi di aprirla, viene scatenata una eccezione di tipo </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>EccezioneTrovataVCAperta</span><span
+style='font-size:10.5pt;font-family:Times'>.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.5pt;
+font-family:Times'>Attraverso il metodo <b>elencoVirtualClassroom()</b> della
+classe </span><span style='font-size:9.0pt;font-family:"Courier New"'>Piattaforma</span><span
+style='font-size:10.5pt;font-family:Times'> è possibile ottenere una collezione
+di tutte le VC create. Il metodo <b>elencoVirtualClassroomChiuse()</b>
+restituisce una collezione delle sole VC che sono state chiuse. In entrambi i
+casi, la collezione è ordinata per data ed ora di inizio crescenti.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:6.0pt;
+font-family:Times'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-family:
+Times'>R4. Collegamenti e statistiche </span></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-size:2.0pt;
+font-family:Times'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.5pt;
+font-family:Times'>La piattaforma tiene traccia degli studenti che si collegano
+alle VC, attraverso il metodo <b>collegamento()</b>. Il metodo riceve come
+parametro il codice del corso, la matricola dello studente, l’ora d’inizio del
+collegamento e la durata in minuti. Il metodo verifica che la VC sia aperta, e
+l’orario del collegamento sia coincidente o successivo all’ora di inizio. </span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.5pt;
+font-family:Times'>Il metodo <b>stampaCollegamentiCorso()</b> riceve come
+parametro il codice di un corso e restituisce una stringa contenente le
+informazioni relative a tutti i collegamenti effettuati alle VC di quel corso
+nel formato matricola minuti complessivi di collegamento, separati da uno
+spazio. Ogni coppia è separata da un punto e virgola. Ogni matricola viene riportata
+una volta sola. Le coppie sono ordinate per numero di matricola. Non sono
+previsti caratteri di “a capo”.</span><b><span style='font-size:2.0pt;
+font-family:Times'> </span></b></p>
+
+</div>
+
+</body>
+
+</html>
